@@ -1,0 +1,64 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+h1 a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+h1 a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+h1 a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+h1 a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+body{
+    background-image: url(clark-street-mercantile-P3pI6xzovu0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    text-align: center;
+    margin-top: 100px;
+    background-color: white;
+    margin-left:500px;
+    margin-right: 500px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+    border-radius: 20%;
+}
+label{
+    padding: 20px;
+    border: 0;
+
+}
+input{
+    margin: 20px;
+    border: 0;
+    background-image: url(clark-street-mercantile-P3pI6xzovu0-unsplash.jpg);
+    background-position:top;
+  }
+form{
+    opacity: 60%;
+}
+h1{
+  text-align: center;
+  text-decoration: none;
+}

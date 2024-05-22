@@ -1,0 +1,88 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    animation-delay: 5ms;
+}
+section{
+    height: 100vh;
+    width: auto;
+}
+header nav{
+    border-radius: 0px 40px 0px 40px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    height: 50px;
+    position: fixed;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+}
+nav ul div{
+    display: flex;
+    padding-left: 800px;
+    padding-top: 10px;
+}
+nav ul li{
+    margin-right: 100px;
+}
+
+nav ul  a:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;   
+}
+
+nav ul  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;   
+}
+  
+nav ul a:hover {
+    color: #DDDDDD;
+   
+}
+  
+nav ul a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+nav ul li p:hover{
+transform: scale(1.06);
+
+}
+
+
+#Containera{
+    height:500px ;
+    width:400px ;
+    margin-left: 425px;
+    padding-top: 150px;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+
+}
+#Containerb{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+div.Options{
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+div input{
+    height: 200px;
+    border-color: #DDDDDD;
+    border-radius: 30px;
+    padding-top: 20px;
+}
+div.input{
+    padding-bottom: 20px;
+}

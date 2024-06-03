@@ -19,7 +19,7 @@ nav{
 }
 nav ul {
     margin-top: 15px;
-    margin-left: 400px;
+    padding-left: 400px;
     display: flex;
     list-style: none;
 }
@@ -137,7 +137,7 @@ nav ul li a:active {
   }
   
   #list ul li a:active {
-    color: white;
+    color: rgb(120, 119, 128);
     background-color: transparent;
     text-decoration: none;
   }
@@ -194,7 +194,7 @@ nav ul li a:active {
   color: white;
 }
 #wrapper{
-  margin-top: 200px;
+  padding-top: 200px;
   padding-left: 100px;
   max-width: 1200px;
 }
@@ -228,7 +228,10 @@ nav ul li a:active {
 
 
 .Containera{
-  margin-left: 350px;
+  margin-left: 200px;
+  padding-top: 150px;
+  align-items: center;
+  justify-content: center;
   display: flex;
 }
 .box{
@@ -246,7 +249,7 @@ nav ul li a:active {
   left: 50px;
   border-radius: 20px;
   box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  z-index: 4;
+  z-index: 10;
   overflow: hidden;
   transform: translateY(-20px);
   transition: 1s;
@@ -274,4 +277,74 @@ nav ul li a:active {
   background-size: cover;
   margin-left: -50px;
   overflow: hidden;
+}
+@media (max-width : 1100px){
+  *{
+    padding-top: 0;
+  }
+    nav ul {
+      padding-left: 300px ;
+      text-align: center;
+    }
+    .arrow{
+      margin-left: 500px;
+    }
+    #wrapper{
+      padding-top: 0;
+      padding-left: 20px;
+      max-width: 1200px;
+     }
+     #up{
+      margin-right: 0px;
+     }
+     #down{
+      margin-right: 10px;
+     }
+  }
+@media (max-width : 768px){
+    nav ul {
+      padding-left: 175px ;
+      text-align: center;
+    }
+    .arrow{
+      margin-left: 300px;
+    }
+    #wrapper{
+      padding-left: 20px;
+      max-width: 1200px;
+     }
+     #up{
+      margin-right: 0px;
+     }
+     #down{
+      margin-right: 10px;
+     }
+  }
+@media (max-width : 425px){
+  *{font-size: 1rem;}
+  nav ul {
+    padding-left: 175px ;
+    text-align: center;
+  }
+
+  .arrow{
+    margin-left: 300px;
+  }
+  .Page2{
+    font-size: 30px;
+  }
+  #sec-2 p{
+    font-size: 10px;
+  }
+  #wrapper{
+    padding-top: 300px;
+    padding-left: 50px;
+    max-width: 1000px;
+   }
+   #up{
+    margin-right: 0;
+   }
+   #down{
+    margin-right: 10px;
+   }
 }

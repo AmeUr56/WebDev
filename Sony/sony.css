@@ -1,0 +1,276 @@
+*{ padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+section{
+    height: 100vh;
+    background-image: url(grey-texture-background-pvardm2tak2sqva0.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-wrapper{
+    display: flex;
+
+}
+.right-corner{
+    text-align: right;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    margin-left: 1050px;
+    background-color:rgba(0, 0, 0, 0.233);
+    border-radius: 0 0 0 150px;
+}
+.left-corner{
+    text-align: right;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    background-color:rgba(0, 0, 0, 0.233);
+    border-radius: 0 0 50px 0;
+}
+.dropbtn {
+    color: white;
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+.right{
+  margin-right: 50px;
+  margin-top: 20px;
+} 
+.left{
+  margin-right: 60px;
+  margin-top: 20px;
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: transparent;
+    transform: scale(1.06);
+    transition: 0.5s;
+  }
+.center{
+  height: auto;
+  width: 800px;
+  margin-top: 100px;
+  margin-left: 225px;
+  margin-right: 50px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.camera{
+  z-index: 2;
+  height: 300px;
+  filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
+.title{
+  z-index: 1;
+  color: white;
+  font-size: 350px;
+  margin-top: -500px;
+  filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
+.footer-wrapper{
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+.infos-button{
+  align-items: center;
+  margin-left: 50px;
+}
+.fancy {
+  background-color: black;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 1.25em 2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0.3s ease-in-out;
+  user-select: none;
+  font-size: 13px;
+ }
+ 
+ .fancy::before {
+  content: " ";
+  width: 1.5625rem;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  top: 50%;
+  left: 1.5em;
+  position: absolute;
+  transform: translateY(-50%);
+  transform-origin: center;
+  transition: background 0.3s linear, width 0.3s linear;
+ }
+ 
+ .fancy .text {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  padding-left: 2em;
+  display: block;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+ }
+ 
+ .fancy .top-key {
+  height: 2px;
+  width: 1.5625rem;
+  top: -2px;
+  left: 0.625rem;
+  position: absolute;
+  background: #e8e8e800;
+  transition: width 0.5s ease-out, left 0.3s ease-out;
+ }
+ 
+ .fancy .bottom-key-1 {
+  height: 2px;
+  width: 1.5625rem;
+  right: 1.875rem;
+  bottom: -2px;
+  position: absolute;
+  background: #ffffff00;
+  transition: width 0.5s ease-out, right 0.3s ease-out;
+ }
+ 
+ .fancy .bottom-key-2 {
+  height: 2px;
+  width: 0.625rem;
+  right: 0.625rem;
+  bottom: -2px;
+  position: absolute;
+  background: #e8e8e800;
+  transition: width 0.5s ease-out, right 0.3s ease-out;
+ }
+ 
+ .fancy:hover {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+ }
+ 
+ .fancy:hover::before {
+  width: 0.9375rem;
+  background: rgb(0, 0, 0);
+ }
+ 
+ .fancy:hover .text {
+  color: rgb(0, 0, 0);
+  padding-left: 1.5em;
+ }
+ 
+ .fancy:hover .top-key {
+  left: -2px;
+  width: 0px;
+ }
+ 
+ .fancy:hover .bottom-key-1,
+  .fancy:hover .bottom-key-2 {
+  right: 0;
+  width: 0;
+ }
+
+
+.card{
+  float: right;
+  height: 100px;
+  width: 400px;
+  margin-top: 10px;
+  margin-left: 600px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.card-img:hover{
+  transform: scale(1.06);
+  transition: 0.5s;
+}
+.card-img{
+height: 100px;
+width: 200px;
+border-radius: 20px 0 0 20px;
+background-image: url(best-cameras-for-low-light-20230912-medium.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.card-txt{
+  display: flex;
+  flex-direction: column;
+}
+.socials{
+  display: flex;
+}
+.icon{
+  height: 20px;
+  width: 20px;
+}
+.icon1{
+  background-image: url(f.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 20px;
+}
+.icon2{
+  background-image: url(instagram.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 150px;
+}
+.icon2 :hover{
+  transform: scale(1.06);
+  transition: 0.5s;
+}
+.icon:hover{
+  transform: translateX(10);
+  transition: 0.5S;
+}

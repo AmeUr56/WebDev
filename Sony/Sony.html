@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sony.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Sony</title>
+</head>
+<body>
+    <section>
+        <div class="header-wrapper">
+        <div class="left-corner">
+          <div class="dropdown">
+            <img src="menu-burger.png" class="dropbtn left">
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>   
+        <div class="right-corner">
+          <div class="dropdown">
+            <img src="menu.png" class="dropbtn right">
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="center"><img src="mirrorless-interchangeable-lens-camera-4k-resolution-autofocus-aps-c-sony-digital-camera-png-transparent-image-0e58ec321215bf97b9dc8774fe58166e.png"  class="camera"><h1 class="title">AZR</h1></div>
+      <div class="footer-wrapper">
+        <div class="infos-button"><h1 style="font-size: 30px;color: white;margin-left: 30px;font-weight: 500;">Innovate</h1>
+        <a class="fancy" href="#">
+          <span class="top-key"></span>
+          <span class="text">Explore More</span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a></div>
+        <div class="card"><a href="#"><div class="card-img"></div></a><div class="card-txt"><h2 style="color: white;">Experience The Future</h2><div class="socials"><a href="#" ><div class="icon icon1"></div></a><a href="#"><div class="icon icon2"></div></a></div></div></div>
+      </div>
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script>
+      ScrollReveal({
+        reset:true,
+        distance: '100px',
+        duration:2000
+      });
+        ScrollReveal().reveal('.camera' , { origin: 'bottom' });
+        ScrollReveal().reveal('.title' , { origin: 'top' });
+        ScrollReveal().reveal('.left-corner' , { origin: 'right' });
+        ScrollReveal().reveal('.right-corner' , { origin: 'left' });
+        ScrollReveal().reveal('.infos-button' , { origin: 'right' });
+        ScrollReveal().reveal('.card' , { origin: 'left' });
+
+      </script>
+     </section>
+</body>
+</html>
